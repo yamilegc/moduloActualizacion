@@ -1,9 +1,4 @@
-ï»¿/*
- *
 
- To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package practicagithub;
 
 import java.io.IOException;
@@ -18,8 +13,8 @@ public class libro extends obra {
     int nPaginas;    
     
    
-    public libro(String editorial, int nPaginas, String titulo, artista autor, int aÃ±oEdicion) {
-        super(titulo, autor, aÃ±oEdicion);
+    public libro(String editorial, int nPaginas, String titulo, artista autor, int añoEdicion) {
+        super(titulo, autor, añoEdicion);
         this.editorial = editorial;
         this.nPaginas = nPaginas;
     }   
